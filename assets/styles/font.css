@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/DMSans-Regular.eot');
+    src: url('../fonts/DMSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DMSans-Regular.woff2') format('woff2'),
+        url('../fonts/DMSans-Regular.woff') format('woff'),
+        url('../fonts/DMSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../fonts/Satoshi-Medium.eot');
+    src: url('../fonts/Satoshi-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Satoshi-Medium.woff2') format('woff2'),
+        url('../fonts/Satoshi-Medium.woff') format('woff'),
+        url('../fonts/Satoshi-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
