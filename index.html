@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/styles/index.css">
 </head>
 
@@ -29,11 +30,32 @@
             </div>
         </header>
         <main class="main">
+            <section class="top">
+                <div class="container">
+                    <h1 class="title">
+                        Leasing From D&M
+                    </h1>
+                    <a href="#" class="top__link">
+                        FIND A CAR
+                    </a>
+                </div>
+            </section>
+            <div class="slider">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image: url(./assets/images/slide-1.jpg);"></div>
+                        <div class="swiper-slide" style="background-image: url(./assets/images/slide-2.jpg);"></div>
+                        <div class="swiper-slide" style="background-image: url(./assets/images/slide-1.jpg);"></div>
+                        <div class="swiper-slide" style="background-image: url(./assets/images/slide-2.jpg);"></div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
 
 
 
 
-            
         </main>
         <footer class="footer">
             <div class="container">
@@ -103,6 +125,8 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
